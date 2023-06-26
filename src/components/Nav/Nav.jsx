@@ -20,7 +20,7 @@ const Nav = () => {
             to={'/'}
           >
             <img
-              src=''
+              src='/images/turysta-logo.png'
               alt='logo'
             />
             <h1>Turysta.pl</h1>
@@ -32,13 +32,13 @@ const Nav = () => {
             className='link'
             to={'/register'}
           >
-            <h1>Register</h1>
+            <h1>Rejestracja</h1>
           </Link>
           <Link
             className='link'
             to={'/login'}
           >
-            <h1>Login</h1>
+            <h1>Logowanie</h1>
           </Link>
 
        

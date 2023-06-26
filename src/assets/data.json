@@ -1,0 +1,130 @@
+[
+  {
+    "ido": "1",
+    "foto": "https://img.wprost.pl/img/polonina-wetlinska-widziana-ze-smereka/06/4d/514a506c9cd6d5e8e2b7cc8ea229.png",
+    "kraj": "Polska",
+    "rejon": "Bieszczady",
+    "nazwa": "Z widokiem na Połoniny",
+    "cena": "560"
+  },
+  {
+    "ido": "2",
+    "foto": "http://www.karatekyokushin-koronea.pl/images/Oboz-letni-Solina-2019-550.png",
+    "kraj": "Polska",
+    "rejon": "Bieszczady",
+    "nazwa": "Wokół Soliny",
+    "cena": "780"
+  },
+  {
+    "ido": "3",
+    "foto": "https://static.polskieszlaki.pl/zdjecia/wycieczki/2015-10/516_348/krzemieniec-272897.jpg",
+    "kraj": "Polska",
+    "rejon": "Bieszczady",
+    "nazwa": "Na styku trzech granic",
+    "cena": "730"
+  },
+  {
+    "ido": "4",
+    "foto": "https://t4.ftcdn.net/jpg/00/71/50/91/360_F_71509161_wDmgOa2IEa7mwZR7VMOR6i9QDS6eIGs5.jpg",
+    "kraj": "Polska",
+    "rejon": "Tatry",
+    "nazwa": "Dolina Kościeliska",
+    "cena": "140"
+  },
+  {
+    "ido": "5",
+    "foto": "https://willatatrahouse.pl/wp-content/uploads/2018/03/kolejka.png",
+    "kraj": "Polska",
+    "rejon": "Tatry",
+    "nazwa": "W stronę Kasprowego Wierchu",
+    "cena": "320"
+  },
+  {
+    "ido": "7",
+    "foto": "https://www.przedszkolenr1tuchola.pl/wp-content/uploads/2020/03/Morskie-Oko.jpg",
+    "kraj": "Polska",
+    "rejon": "Tatry",
+    "nazwa": "Z Pięciu Stawów na Morskie Oko",
+    "cena": "560"
+  },
+  {
+    "ido": "8",
+    "foto": "https://hasajacezajace.com/wp-content/uploads/2020/06/DSC03344.jpg",
+    "kraj": "Polska",
+    "rejon": "Karkonosze",
+    "nazwa": "Śnieżne Kotły i Szrenica",
+    "cena": "456"
+  },
+  {
+    "ido": "9",
+    "foto": "https://www.traveliada.pl/images/hotele/35501/wycieczka-do-pragi-nocleg-pod-praga.jpg",
+    "kraj": "Czechy",
+    "rejon": "Praga",
+    "nazwa": "Skarby Pragi",
+    "cena": "999"
+  },
+  {
+    "ido": "10",
+    "foto": "https://www.swiatobrazu.pl/picture/i/s50/019/92_/c31ee_s_660_0_0_0_0_0_0_s5001992_zrchh6i8rbzugg96m96h4py.jpeg",
+    "kraj": "Czechy",
+    "rejon": "Góry Stołowe",
+    "nazwa": "Czeskie Góry Stołowe (Adrspach / Teplice nad Metuji) ",
+    "cena": "890"
+  },
+  {
+    "ido": "11",
+    "foto": "https://cdn.photography-secret.com/8099231/5_Common_Post-Processing_Mistakes_to_Avoid_2.jpg.webp",
+    "kraj": "Słowenia",
+    "rejon": "Jezioro Blad i Alpy ",
+    "nazwa": "Rzut oka na słoweńskie Alpy.",
+    "cena": "1100"
+  },
+  {
+    "ido": "12",
+    "foto": "https://gfx.podroze.radiozet.pl/var/radiozet/storage/images/podroze-radia-zet/park-narodowy-jezior-plitwickich-chorwacki-klejnot-przyrody/967856-1-pol-PL/Park-Narodowy-Jezior-Plitwickich-chorwacki-klejnot-przyrody_article.jpg",
+    "kraj": "Chorwacja",
+    "rejon": "Split i Plitwickie Jeziora",
+    "nazwa": "Trójkąt pięknych widoków. Split - Szybenik - Plitwickie Jeziora",
+    "cena": "1200"
+  },
+  {
+    "ido": "13",
+    "foto": "https://us.123rf.com/450wm/jenifoto/jenifoto1404/jenifoto140400054/27436371-kolorowe-widok-na-port-portovenere-w%C5%82ochy-z-%C5%82odzi.jpg?ver=6",
+    "kraj": "Włochy",
+    "rejon": "Włochy w tydzień",
+    "nazwa": "Włochy wycieczka objazdowa",
+    "cena": "1999"
+  },
+  {
+    "ido": "14",
+    "foto": "http://www.planetagor.pl/img/upload_pic/P8191718.jpg",
+    "kraj": "Słowacja",
+    "rejon": "Tatry Słowackie",
+    "nazwa": "Łomnica - dach Tatr",
+    "cena": "599"
+  },
+  {
+    "ido": "15",
+    "foto": "https://hasajacezajace.com/wp-content/uploads/2020/09/DSC04369-Pano.jpg",
+    "kraj": "Słowacja",
+    "rejon": "Tatry Słowackie / Niżne Tatry",
+    "nazwa": "Słowackie Jaskinie",
+    "cena": "499"
+  },
+  {
+    "ido": "16",
+    "foto": "https://www.ecotravel.pl/6529518f5231718f7c8412602c6532df,images,1,.jpg",
+    "kraj": "Niemcy",
+    "rejon": "Niemcy północne",
+    "nazwa": "Niemieckie perełki",
+    "cena": "599"
+  },
+  {
+    "ido": "17",
+    "foto": "https://i.wpimg.pl/1200x/d.wpimg.pl/747737948--139531217/polesie.jpg",
+    "kraj": "Polska",
+    "rejon": "Polesie",
+    "nazwa": "Na bagnach",
+    "cena": "499"
+  }
+]

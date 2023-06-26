@@ -10,7 +10,7 @@
 }
 
 .form label {
-  color: var(--blue);
+  color: var(--green);
 }
 
 .form input {
@@ -22,27 +22,36 @@
   border: 1px solid var(--black);
   border-radius: 5px;
   user-select: none;
-  color: var(--black);
+  color: var(--white);
+  background-color: var(--darkGrey);
 }
 
 .form input::placeholder {
-  color: var(--blue);
+  color: var(--lightGrey);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-background-clip: var(--darkGrey);
+    -webkit-text-fill-color: var(--white);
+    transition: background-color 5000s ease-in-out 0s;
 }
 
 .form input[type='submit'] {
   color: var(--white);
   width: 300px;
   padding: 8px 16px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  background-color: var(--blue);
+  background-color: var(--green);
   margin-top: 22px;
 }
 
 .form input[type='submit']:hover {
-  background-color: var(--green);
+  background-color: var(--lightGreen);
   color: var(--white);
 }
 

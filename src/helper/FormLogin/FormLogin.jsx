@@ -35,7 +35,7 @@ export const FormLogin = ({ onSubmit }) => {
       onSubmit={handleSubmit(onSubmit)}
     >
       <div className='wrapper-input'>
-        <label htmlFor='email'>Email Address</label>
+        <label htmlFor='email'>Email Adres</label>
         <input
           type='email'
           {...register('email')}
@@ -43,7 +43,7 @@ export const FormLogin = ({ onSubmit }) => {
         <p>{errors.email?.message}</p>
       </div>
       <div className='wrapper-input'>
-        <label htmlFor='phone'>Password</label>
+        <label htmlFor='phone'>Hasło</label>
         <input
           type='password'
           {...register('password')}
@@ -54,7 +54,7 @@ export const FormLogin = ({ onSubmit }) => {
       <div className='wrapper-input'>
         <input
           type='submit'
-          value='Login'
+          value='Zaloguj'
         />
       </div>
     </form>

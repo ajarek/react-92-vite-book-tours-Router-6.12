@@ -39,26 +39,26 @@ export const Form = ({ onSubmit }) => {
       onSubmit={handleSubmit(onSubmit)}
     >
       <div className='wrapper-input'>
-        <label htmlFor='name'>Name</label>
+        <label htmlFor='name'>Imię i Nazwisko</label>
         <input
           type='text'
-          placeholder='Alexei Ward'
+          placeholder='Jan Kowalski'
           {...register('name')}
         />
         <p>{errors?.name?.message}</p>
       </div>
 
       <div className='wrapper-input'>
-        <label htmlFor='email'>Email Address</label>
+        <label htmlFor='email'>Email Adres</label>
         <input
           type='email'
-          placeholder='alexei@gmail.com'
+          placeholder='kowalski@gmail.com'
           {...register('email')}
         />
         <p>{errors.email?.message}</p>
       </div>
       <div className='wrapper-input'>
-        <label htmlFor='phone'>Password</label>
+        <label htmlFor='phone'>Hasło</label>
         <input
           type='password'
           {...register('password')}
@@ -66,10 +66,10 @@ export const Form = ({ onSubmit }) => {
         <p>{errors.password?.message}</p>
       </div>
       <div className='wrapper-input'>
-        <label htmlFor='phone'>Phone Number</label>
+        <label htmlFor='phone'>Numer Telefonu</label>
         <input
           type='phone'
-          placeholder='+1 202-555-0136'
+          placeholder='654 555 136'
           {...register('phone')}
         />
         <p>{errors.phone?.message}</p>
@@ -78,7 +78,7 @@ export const Form = ({ onSubmit }) => {
       <div className='wrapper-input'>
         <input
           type='submit'
-          value='Register'
+          value='Zarejestruj'
         />
       </div>
     </form>

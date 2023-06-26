@@ -11,7 +11,6 @@ const Login = () => {
   const handleLogin = (data) => {
     const user = fetchStorage('register')
     if (data.email === user?.email && data.password === user?.password) {
-      setIsLogin(true)
       navigate('/')
     }
   }
