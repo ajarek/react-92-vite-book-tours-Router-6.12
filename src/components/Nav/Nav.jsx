@@ -28,18 +28,19 @@ const Nav = () => {
         </div>
 
         <ul className={!isOpen ? 'wrapper' : 'wrapper navbar-none'}>
+        <Link
+            className='link'
+            to={'/login'}
+          >
+            <h1>Logowanie</h1>
+          </Link>
           <Link
             className='link'
             to={'/register'}
           >
             <h1>Rejestracja</h1>
           </Link>
-          <Link
-            className='link'
-            to={'/login'}
-          >
-            <h1>Logowanie</h1>
-          </Link>
+         
 
        
         </ul>
