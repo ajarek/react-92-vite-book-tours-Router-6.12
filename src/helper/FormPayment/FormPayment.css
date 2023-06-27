@@ -6,13 +6,13 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
-  background-color: var(--blue);
+  background-color: var(--grey);
 }
 
 .form-payment label {
-  color: var(--white);
+  color: var(--green);
+  margin: 8px 0;
 }
 
 .form-payment input {
@@ -21,14 +21,15 @@
   padding: 1rem;
   font-size: 1.2rem;
   outline: none;
-  border: 1px solid var(--black);
+  border: none;
   border-radius: 5px;
   user-select: none;
-  color: var(--black);
+  color: var(--white);
+  background-color: var(--darkGrey);
 }
 
 .form-payment input::placeholder {
-  color: var(--blue);
+  color: var(--lightGrey);
 }
 
 .form-payment input[type='submit'] {
@@ -39,12 +40,12 @@
   border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  background-color: var(--red);
+  background-color: var(--green);
   margin-top: 22px;
 }
 
 .form-payment input[type='submit']:hover {
-  background-color: var(--green);
+  background-color: var(--lightGreen);
   color: var(--white);
 }
 
