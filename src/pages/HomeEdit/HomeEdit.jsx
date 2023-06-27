@@ -1,9 +1,15 @@
 import './HomeEdit.css'
 import { useParams, Link } from 'react-router-dom'
 import data from '../../assets/data.json'
+import { useState,useContext, useEffect } from 'react'
+import { AppContext } from '../../App'
 const HomeEdit = () => {
   let { id } = useParams()
-  const selectedData = data?.find((el) => el.id === id)
+  const { selectedData,setSelectedData } = useContext(AppContext)
+  useEffect(()=>{
+    setSelectedData( data?.find((el) => el.id === id))
+
+  })
   return (
     <div className='home-edit'>
       
@@ -18,7 +24,7 @@ const HomeEdit = () => {
           <div className="wrapper-cena">
           <div className="cena">cena: <b>{selectedData.cena}</b> PLN</div>
           <Link to={'/'} className='link-cena'>Powrót</Link>
-          <Link className='link-cena'>Zamawiam</Link>
+          <Link to={'/payment-form'}  className='link-cena'>Zamawiam</Link>
           </div>
         </div>
      

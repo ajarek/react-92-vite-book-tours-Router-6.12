@@ -6,6 +6,7 @@ import Home from './pages/Home/Home'
 import Login from './pages/Login/Login'
 import Register from './pages/Register/Register'
 import HomeEdit from './pages/HomeEdit/HomeEdit'
+import PaymentForm from './pages/PaymentForm/PaymentForm'
 import Error from './pages/Error/Error'
 
 const router = createBrowserRouter([
@@ -32,6 +33,11 @@ const router = createBrowserRouter([
         errorElement: <Error />,
       },
       {
+        path: '/payment-form',
+        element: <PaymentForm />,
+        errorElement: <Error />,
+      },
+      {
         path: 'home-edit',
         errorElement: <Error />,
         children: [
@@ -46,9 +52,10 @@ const router = createBrowserRouter([
   },
 ])
 function App() {
+  const [selectedData,setSelectedData]=useState([])
   return (
     <div className='App'>
-      <AppContext.Provider value={{}}>
+      <AppContext.Provider value={{selectedData,setSelectedData}}>
         <RouterProvider router={router} />
       </AppContext.Provider>
     </div>
