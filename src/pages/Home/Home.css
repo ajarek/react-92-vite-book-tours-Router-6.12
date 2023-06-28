@@ -3,7 +3,7 @@
   width: 100%;
  padding: 90px 45px;
  display: grid;
- grid-template-columns: repeat(3,1fr);
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
  gap: 32px;
   
 }
@@ -47,4 +47,10 @@ cursor: pointer;
   bottom: 0;
   right: 0;
   left: 0;
+}
+@media (max-width:432px) {
+  .home{
+    padding: 90px 0px 32px 0 ;
+
+  }
 }

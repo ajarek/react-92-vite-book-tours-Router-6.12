@@ -64,7 +64,7 @@ export const FormPayment = ({ onSubmit, amount }) => {
       onSubmit={handleSubmit(onSubmit)}
     >
       <div className='wrapper-input'>
-        <label htmlFor='cardNumber'>Amount</label>
+        <label htmlFor='cardNumber'>Do zapłaty</label>
         <input
           type='text'
           value={amount}
@@ -74,7 +74,7 @@ export const FormPayment = ({ onSubmit, amount }) => {
       </div>
 
       <div className='wrapper-input'>
-        <label htmlFor='cardNumber'>Card Number</label>
+        <label htmlFor='cardNumber'>Numer Karty</label>
         <input
           type='text'
           placeholder='1234 5678 9012 3456'
@@ -83,7 +83,7 @@ export const FormPayment = ({ onSubmit, amount }) => {
         <p>{errors.cardNumber?.message}</p>
       </div>
       <div className='wrapper-input'>
-        <label htmlFor='expiryDate'>Expiry Date</label>
+        <label htmlFor='expiryDate'>Data Ważności</label>
         <input
           type='text'
           placeholder='MM/YYYY'
@@ -105,7 +105,7 @@ export const FormPayment = ({ onSubmit, amount }) => {
       <div className='wrapper-input'>
         <input
           type='submit'
-          value='Pay'
+          value='Płacę'
         />
       </div>
     </form>

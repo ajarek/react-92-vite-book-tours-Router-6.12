@@ -20,7 +20,7 @@ const HomeEdit = () => {
           <h2>{selectedData.nazwa}</h2>
           <span>kraj: <b>{selectedData.kraj}</b></span>{' '}
           <span>rejon: <b>{selectedData.rejon}</b></span>
-          <p>{selectedData.opis}</p>
+          <div className='opis'>{selectedData.opis}</div>
           <div className="wrapper-cena">
           <div className="cena">cena: <b>{selectedData.cena}</b> PLN</div>
           <Link to={'/'} className='link-cena'>Powrót</Link>
