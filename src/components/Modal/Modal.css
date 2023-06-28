@@ -19,6 +19,7 @@
 }
 
 .close-button {
+  margin-top: 32px;
   padding: 10px 20px;
   background-color: var(--white);
   color: var(--darkGrey);

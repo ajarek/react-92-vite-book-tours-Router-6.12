@@ -7,7 +7,7 @@ import { React, useState, useContext } from 'react'
 import { AppContext } from '../../App'
 
 const Nav = () => {
- 
+  const {isLogin,setIsLogin} = useContext(AppContext)
   const [isOpen, setOpen] = useState(false)
  
 
@@ -25,9 +25,16 @@ const Nav = () => {
             />
             <h1>Turysta.pl</h1>
           </Link>
+          {isLogin ? <p style={{marginLeft:'16px',fontSize:'24px'}}> zalogowano!</p>:null}
         </div>
 
         <ul className={!isOpen ? 'wrapper' : 'wrapper navbar-none'}>
+          <Link
+            className='link'
+            to={'/contact'}
+          >
+            <h1>Contact</h1>
+          </Link>
         <Link
             className='link'
             to={'/login'}

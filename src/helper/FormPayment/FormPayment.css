@@ -1,6 +1,6 @@
 .form-payment {
   width: 770px;
-  height: 480px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -60,6 +60,7 @@
   color: var(--red);
   background-color: var(--white);
   padding: 0 8px;
+  width: 400px;
 }
 
 @media (max-width: 720px) {
@@ -72,7 +73,7 @@
   }
 
   .form-payment input,
-  .form-payment input[type='submit'] {
+  .form-payment input[type='submit'],.form-payment p  {
     width: 80vw;
   }
 }
