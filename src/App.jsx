@@ -58,12 +58,14 @@ const router = createBrowserRouter([
   },
 ])
 function App() {
-  const [selectedData,setSelectedData]=useState([])
-  const [isLogin,setIsLogin]=useState(false)
- 
+  const [selectedData, setSelectedData] = useState([])
+  const [isLogin, setIsLogin] = useState(false)
+
   return (
     <div className='App'>
-      <AppContext.Provider value={{selectedData,setSelectedData,isLogin,setIsLogin}}>
+      <AppContext.Provider
+        value={{ selectedData, setSelectedData, isLogin, setIsLogin }}
+      >
         <RouterProvider router={router} />
       </AppContext.Provider>
     </div>

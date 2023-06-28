@@ -3,7 +3,7 @@ import data from '../../assets/data.json'
 import './Home.css'
 
 const Home = () => {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
   return (
     <div className='home'>
       {data.map((d) => {
@@ -11,7 +11,7 @@ const Home = () => {
           <div
             key={d.id}
             className='card'
-            onClick={() =>navigate(`home-edit/${d.id}/`)}
+            onClick={() => navigate(`home-edit/${d.id}/`)}
           >
             <div className='card-wrapper'>
               <div className='img'>

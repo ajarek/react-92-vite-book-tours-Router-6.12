@@ -1,15 +1,13 @@
 import { Link } from 'react-router-dom'
 import Hamburger from 'hamburger-react'
 
-
 import './Nav.css'
 import { React, useState, useContext } from 'react'
 import { AppContext } from '../../App'
 
 const Nav = () => {
-  const {isLogin,setIsLogin} = useContext(AppContext)
+  const { isLogin } = useContext(AppContext)
   const [isOpen, setOpen] = useState(false)
- 
 
   return (
     <>
@@ -25,7 +23,9 @@ const Nav = () => {
             />
             <h1>Turysta.pl</h1>
           </Link>
-          {isLogin ? <p style={{marginLeft:'16px',fontSize:'24px'}}> zalogowano!</p>:null}
+          {isLogin ? (
+            <p style={{ marginLeft: '16px', fontSize: '24px' }}> zalogowano!</p>
+          ) : null}
         </div>
 
         <ul className={!isOpen ? 'wrapper' : 'wrapper navbar-none'}>
@@ -33,9 +33,9 @@ const Nav = () => {
             className='link'
             to={'/contact'}
           >
-            <h1>Contact</h1>
+            <h1>Kontakt</h1>
           </Link>
-        <Link
+          <Link
             className='link'
             to={'/login'}
           >
@@ -47,9 +47,6 @@ const Nav = () => {
           >
             <h1>Rejestracja</h1>
           </Link>
-         
-
-       
         </ul>
 
         <div className='hamburger'>

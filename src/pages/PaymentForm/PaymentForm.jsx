@@ -1,12 +1,11 @@
 import { React, useState, useContext } from 'react'
 import { AppContext } from '../../App'
-import { useNavigate   } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import './PaymentForm.css'
 import { FormPayment } from '../../helper/FormPayment/FormPayment'
 import Modal from '../../components/Modal/Modal'
 const PaymentForm = () => {
- 
-  const { selectedData,setSelectedData } = useContext(AppContext)
+  const { selectedData } = useContext(AppContext)
   const [showModal, setShowModal] = useState(false)
   const [showAmount, setShowAmount] = useState('')
   const navigate = useNavigate()

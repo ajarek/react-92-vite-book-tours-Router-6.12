@@ -1,4 +1,4 @@
-import { React, useContext,useState } from 'react'
+import { React, useContext, useState } from 'react'
 import { AppContext } from '../../App'
 import { useNavigate } from 'react-router-dom'
 import { FormLogin } from '../../helper/FormLogin/FormLogin'
@@ -7,8 +7,8 @@ import ModalLogin from '../../components/ModalLogin/ModalLogin'
 import './Login.css'
 
 const Login = () => {
-  const {isLogin,setIsLogin} = useContext(AppContext)
-  const[loginError, setLoginError]=useState(false)
+  const { setIsLogin } = useContext(AppContext)
+  const [loginError, setLoginError] = useState(false)
   const navigate = useNavigate()
   const handleLogin = (data) => {
     const user = fetchStorage('register')
@@ -16,8 +16,7 @@ const Login = () => {
       navigate('/')
       setIsLogin(true)
       setLoginError(false)
-    }
-    else setLoginError(true)
+    } else setLoginError(true)
   }
   const handleCloseModal = () => {
     setLoginError(false)
@@ -29,8 +28,13 @@ const Login = () => {
   }
   return (
     <div className='login'>
-      {loginError?<ModalLogin onClose={handleCloseModal} onChange={handleChangeLogin}/>:null}
-      <FormLogin onSubmit={handleLogin}  />
+      {loginError ? (
+        <ModalLogin
+          onClose={handleCloseModal}
+          onChange={handleChangeLogin}
+        />
+      ) : null}
+      <FormLogin onSubmit={handleLogin} />
     </div>
   )
 }

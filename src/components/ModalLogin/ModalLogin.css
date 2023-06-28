@@ -17,7 +17,7 @@
   border-radius: 5px;
   text-align: center;
 }
-.wrapper-modal-login{
+.wrapper-modal-login {
   display: flex;
   justify-content: space-evenly;
 }
@@ -33,5 +33,5 @@
   transition: background-color 0.3s ease-in-out;
 }
 .modal-login .close-button:hover {
-background-color: var(--lightGreen);
+  background-color: var(--lightGreen);
 }

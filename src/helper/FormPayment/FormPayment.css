@@ -73,7 +73,8 @@
   }
 
   .form-payment input,
-  .form-payment input[type='submit'],.form-payment p  {
+  .form-payment input[type='submit'],
+  .form-payment p {
     width: 80vw;
   }
 }

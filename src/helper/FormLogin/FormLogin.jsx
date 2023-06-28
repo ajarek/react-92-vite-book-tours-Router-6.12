@@ -4,7 +4,6 @@ import * as yup from 'yup'
 import './FormLogin.css'
 import { useEffect } from 'react'
 export const FormLogin = ({ onSubmit }) => {
-  
   const schema = yup.object().shape({
     email: yup.string().email().required(),
     password: yup.string().min(4).max(12).required(),
@@ -26,9 +25,7 @@ export const FormLogin = ({ onSubmit }) => {
         email: '',
         password: '',
       })
-     
     }
-    
   }, [formState, reset])
 
   return (

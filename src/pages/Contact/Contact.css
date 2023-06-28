@@ -3,8 +3,7 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding:85px 80px;
-  
+  padding: 85px 80px;
 }
 .contact .left-wrapper,
 .contact .right-wrapper {
@@ -81,7 +80,7 @@
   .contact {
     min-height: 100vh;
     grid-template-columns: 1fr;
-    padding:80px 16px 20px 16px;
+    padding: 80px 16px 20px 16px;
   }
   .left-wrapper {
     grid-row: 1/2;
