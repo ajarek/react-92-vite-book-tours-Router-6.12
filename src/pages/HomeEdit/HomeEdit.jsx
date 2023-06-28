@@ -5,7 +5,7 @@ import { useState,useContext, useEffect } from 'react'
 import { AppContext } from '../../App'
 const HomeEdit = () => {
   let { id } = useParams()
-  const { selectedData,setSelectedData } = useContext(AppContext)
+  const { selectedData,setSelectedData,isLogin,setIsLogin } = useContext(AppContext)
   useEffect(()=>{
     setSelectedData( data?.find((el) => el.id === id))
 
@@ -24,7 +24,7 @@ const HomeEdit = () => {
           <div className="wrapper-cena">
           <div className="cena">cena: <b>{selectedData.cena}</b> PLN</div>
           <Link to={'/'} className='link-cena'>Powrót</Link>
-          <Link to={'/payment-form'}  className='link-cena'>Zamawiam</Link>
+          <Link to={isLogin?'/payment-form':'/login'}  className='link-cena'>Zamawiam</Link>
           </div>
         </div>
      
